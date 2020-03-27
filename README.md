@@ -50,4 +50,7 @@ The graphic below is an example image transfered from training set csv.
 
 ### Sigmoid
 
+- Acc: 0.29, Epochs = 15
+
+![acc_sigmoid.png](acc_sigmoid.png)
 
