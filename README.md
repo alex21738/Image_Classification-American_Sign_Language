@@ -50,7 +50,19 @@ The graphic below is an example image transfered from training set csv.
 
 ### Sigmoid
 
-- Acc: 0.29, Epochs = 15
+- Test set accuracy: 0.29, Epochs = 15
 
 ![acc_sigmoid.png](acc_sigmoid.png)
+
+### Softmax
+
+- Test set accuracy: 0.59, Epochs = 15
+
+![acc_softmax.png](acc_softmax.png)
+
+### Hypertuned Softmax
+
+- Test set accuracy: 0.63, Epochs = 15
+
+![acc_hypertuned_softmax.png](acc_hypertuned_softmax.png)
 
