@@ -2,14 +2,14 @@
 
 ## Outline
 
--- Introduction
+- Introduction
 
--- EDA
+- EDA
 
--- Model
+- Model
 
--- CNN
+- CNN
 
--- Insights
+- Insights
 
--- Further exploration
+- Further exploration
