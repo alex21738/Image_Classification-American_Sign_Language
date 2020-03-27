@@ -66,7 +66,11 @@ The graphic below is an example image transfered from training set csv.
 
 ![acc_hypertuned_softmax.png](acc_hypertuned_softmax.png)
 
-### CNN 2D
+## CNN 2D
+
+- Adopt 3 layer convolution 2D and Maxpooling 2D
+
+- Dropout 10% of observations
 
 - Test set accuracy: 0.81, Epochs = 18
 
