@@ -16,16 +16,16 @@
 
 ## Project Goal
 
-The goal for this project is to categorize giving American sign languages correctly to their matching English letters.
+The goal of this project is to correctly predict a letter from the American Sign Language alphabet from a picture of a hand gesture. This includes all letters expect for 'J' and 'Z' becasue those signs require movement. 
 
 ## Data Collection
 
-The data was collected from Kaggle, originally uploaded by Kaggle account tecperson 2018. The data is composed by training csv with shape (27455, 785) and testing csv with shape (7172, 785). All are pixel values that gerenate 28x28 images.
+The data was collected from Kaggle, originally uploaded by Kaggle account tecperson 2018 (https://www.kaggle.com/datamunge/sign-language-mnist). The data is in CSV files and each row represents one image and each colomn represents the grey scale for a single pixel. Turning each row into a matrix we generate 28X28 images. The files are already split into training and test sets. The training set contains by 27455 images and the testing set has 7172 images. 
 
 ## EDA
 
 The graphic below shows distributions of letters in training set.
-![Distributions_of_letters_in_training_set.png](Distributions_of_letters_in_training_set.png)
+![Distributions_of_letters_in_training_set.png](Pictures/.Distributions_of_letters_in_training_set.png)
 
 The graphic below shows distributions of letters in test set.
 ![Distributions_of_letters_in_test_set.png](Distributions_of_letters_in_test_set.png)
@@ -38,9 +38,9 @@ The graphic below is an example image transfered from training set csv.
 
 - Create labels for both training set and testing set.
 
-- Turn both training set and testing set into matrix(reshape), flatten, and standardize(devide by 255).
+- Turn both training set and testing set into matrix(reshape), flatten, and standardize(divide by 255).
 
-- Train validate split for training set.
+- Split the training set into training and validating sets.
 
 - Set number of classes to 25 (26 letters - 2(no J,Z) +1(label))
 
