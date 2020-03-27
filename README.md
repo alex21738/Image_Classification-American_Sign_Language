@@ -12,7 +12,7 @@
 
 - Insights
 
-- Further exploration
+- Further Exploration
 
 ## Project Goal
 
