@@ -31,4 +31,5 @@ The graphic below shows distributions of letters in test set.
 ![Distributions_of_letters_in_test_set.png](Distributions_of_letters_in_test_set.png)
 
 The graphic below is an example image transfered from training set csv.
+
 ![example_image.png](example_image.png)
