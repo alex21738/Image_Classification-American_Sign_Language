@@ -90,11 +90,17 @@ The graphic below is an example image transfered from training set csv.
  
  The graphics below show the transformation of Conv2D --> Max Pooling2D for each 3 layers.
  
+ - Layer 1:
+ 
  ![Conv2D_1.png](Conv2D_1.png)
  ![Max_Pooling2D_1.png](Max_Pooling2D_1.png)
  
+ - Layer 2:
+ 
  ![Conv2D_2.png](Conv2D_2.png)
  ![Max_Pooling2D_2.png](Max_Pooling2D_2.png)
+ 
+ - Layer 3:
  
  ![Conv2D_3.png](Conv2D_3.png)
  ![Max_Pooling2D_3.png](Max_Pooling2D_3.png)
@@ -112,9 +118,9 @@ The graphic below is an example image transfered from training set csv.
  
  ## Further Exploration
  
-- Try larger picture size data
+- Try to work on larger picture size data
 
-- Try heat map to show activation features
+- Try to show activation features by heat map
 
 - Try to implement pre-trained data
 
