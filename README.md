@@ -25,14 +25,14 @@ The data was collected from Kaggle, originally uploaded by Kaggle account tecper
 ## EDA
 
 The graphic below shows distributions of letters in training set.
-![Distributions_of_letters_in_training_set.png](Pictures/.Distributions_of_letters_in_training_set.png)
+![Distributions_of_letters_in_training_set.png](Pictures/Distributions_of_letters_in_training_set.png)
 
 The graphic below shows distributions of letters in test set.
-![Distributions_of_letters_in_test_set.png](Distributions_of_letters_in_test_set.png)
+![Distributions_of_letters_in_test_set.png](Pictures/Distributions_of_letters_in_test_set.png)
 
 The graphic below is an example image transfered from training set csv.
 
-![example_image.png](example_image.png)
+![example_image.png](Pictures/example_image.png)
 
 ## Data Prepping
 
