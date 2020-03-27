@@ -88,4 +88,11 @@ The graphic below is an example image transfered from training set csv.
 
 - Post-process the feature to make it visually palatable
  
+ The graphics below show the transformation of Conv2D --> Max Pooling2D for each 3 layers.
  
+ ![Conv2D_1.png](Conv2D_1.png)
+ ![Max_Pooling2D_1.png](Max_Pooling2D_1.png)
+ ![Conv2D_2.png](Conv2D_2.png)
+ ![Max_Pooling2D_2.png](Max_Pooling2D_2.png)
+ ![Conv2D_3.png](Conv2D_3.png)
+ ![Max_Pooling2D_3.png](Max_Pooling2D_3.png)
