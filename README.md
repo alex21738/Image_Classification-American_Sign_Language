@@ -103,5 +103,11 @@ The graphic below is an example image transfered from training set csv.
  
  - Create a 24X24 confusion matrix for each letter.
  
+ - Calculate False Nagative error % to get top letters most misclassified to other letters.
+ 
+ - Calculate False Positive error % to get top letters most misclassified by other letters.
+ 
  The graphic below shows the confusion matrix.
  ![confusion_matrix.png](confusion_matrix.png)
+ 
+ 
