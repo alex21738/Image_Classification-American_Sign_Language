@@ -66,3 +66,8 @@ The graphic below is an example image transfered from training set csv.
 
 ![acc_hypertuned_softmax.png](acc_hypertuned_softmax.png)
 
+### CNN 2D
+
+- Test set accuracy: 0.81, Epochs = 18
+
+![acc_cnn.png](acc_cnn.png)
