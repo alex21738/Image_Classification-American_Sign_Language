@@ -16,18 +16,18 @@
 
 ## Project Goal
 
-The goal of this project is to correctly predict a letter from the American Sign Language alphabet from a picture of a hand gesture. This includes all letters expect for 'J' and 'Z' becasue those signs require movement. 
+The goal of this project is to correctly predict a letter from the American Sign Language alphabet from an image of a hand gesture. This includes all letters expect for 'J' and 'Z' becasue those signs require movement. 
 
 ## Data Collection
 
-The data was collected from Kaggle, originally uploaded by Kaggle account tecperson 2018. The data is in CSV files and each row represents one image and each colomn represents the grey scale for a single pixel. Turning each row into a matrix we generate 28X28 images. The files are already split into training and testing sets. The training set contains by 27455 images and the testing set has 7172 images. 
+The data was collected from Kaggle, originally uploaded by Kaggle account tecperson 2018 (https://www.kaggle.com/datamunge/sign-language-mnist). The data is in CSV files and each row represents one image and each colomn represents the grey scale for a single pixel of that image. Turning each row into a matrix we can generate images size  28X28. The files are already split into training and test sets. The training set contains 27455 images and the testing set has 7172 images. 
 
 ## EDA
 
-The graphic below shows distributions of letters in training set.
+The graphic below shows distributions of letters in the training set.
 ![Distributions_of_letters_in_training_set.png](Pictures/Distributions_of_letters_in_training_set.png)
 
-The graphic below shows distributions of letters in test set.
+The graphic below shows distributions of letters in the test set.
 ![Distributions_of_letters_in_test_set.png](Pictures/Distributions_of_letters_in_test_set.png)
 
 The graphic below is an example image transfered from training set csv.
@@ -50,25 +50,25 @@ The graphic below is an example image transfered from training set csv.
 
 ### Sigmoid
 
-- Test set accuracy: 0.29, Epochs = 15
+- Test set Accuracy: 0.29, Epochs = 15
 
 ![acc_sigmoid.png](Pictures/acc_sigmoid.png)
 
 ### Softmax
 
-- Test set accuracy: 0.59, Epochs = 15
+- Test set Accuracy: 0.59, Epochs = 15
 
 ![acc_softmax.png](Pictures/acc_softmax.png)
 
 ### Hypertuned Softmax
 
-- Test set accuracy: 0.63, Epochs = 15
+- Test set Accuracy: 0.63, Epochs = 15
 
 ![acc_hypertuned_softmax.png](Pictures/acc_hypertuned_softmax.png)
 
 ## CNN 2D
 
-- Adopt 3 layer Convolution2D and Max pooling2D
+- Adopt 3 layer convolution 2D and Maxpooling 2D
 
 - Dropout 10% of observations
 
@@ -116,18 +116,19 @@ The graphic below is an example image transfered from training set csv.
  The graphic below shows the confusion matrix.
  ![confusion_matrix.png](Pictures/confusion_matrix.png)
  
+ ## Insightful Analysis
+ 
+ - 'R', 'T', and 'V' were the most miss predicted
+ - Other signs were incorrectly predicted as 'U' and 'T' most often
+ ![amer_sign2.png](Pictures/amer_sign2.png)
+ 
  ## Further Exploration
  
-- Try to work on larger picture size data
+- Use larger pictures 
 
-- Try to show activation features by heat map
+- Use a heat map to show actvation features on an image
 
-- Try to implement pre-trained data
+- Implement pre-trained data to increase our accuracy
 
-- Try to involve data augmentation
+- Involve data augmentation to see if we can increase our accuracy
 
-## Reference
-
-- Data Source: https://www.kaggle.com/datamunge/sign-language-mnist
-
-- Powerpoint : https://docs.google.com/presentation/d/1g4U47n2K-JUqWbb6WHiNGrnX8CKCCoSTPpEsJ8coptc/edit?usp=sharing
