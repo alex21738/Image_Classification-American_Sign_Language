@@ -101,4 +101,7 @@ The graphic below is an example image transfered from training set csv.
  
  ## Confusion Matrix
  
+ - Create a 24X24 confusion matrix for each letter.
  
+ The graphic below shows the confusion matrix.
+ ![confusion_matrix.png](confusion_matrix.png)
