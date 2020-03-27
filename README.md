@@ -2,7 +2,7 @@
 
 ## Outline
 
-- Introduction
+- Dataset Introduction
 
 - EDA
 
@@ -13,3 +13,14 @@
 - Insights
 
 - Further exploration
+
+## Project Goal
+
+The goal for this project is to categorize giving American sign languages correctly to their matching English letters.
+
+## Data Collection
+
+The data was collected from Kaggle, originally uploaded by Kaggle account tecperson 2018. The data is composed by training csv with shape (27455, 785) and testing csv with shape (7172, 785). All are pixels values that gerenate 28x28 images.
+
+## EDA
+
