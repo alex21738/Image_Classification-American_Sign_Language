@@ -24,4 +24,4 @@ The data was collected from Kaggle, originally uploaded by Kaggle account tecper
 
 ## EDA
 
-![Distributions of letters in training set.png](Distributions of letters in training set.png)
+![Distributions_of_letters_in_training_set.png](Distributions_of_letters_in_training_set.png)
