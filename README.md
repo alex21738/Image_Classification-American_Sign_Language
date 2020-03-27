@@ -92,7 +92,9 @@ The graphic below is an example image transfered from training set csv.
  
  ![Conv2D_1.png](Conv2D_1.png)
  ![Max_Pooling2D_1.png](Max_Pooling2D_1.png)
+ 
  ![Conv2D_2.png](Conv2D_2.png)
  ![Max_Pooling2D_2.png](Max_Pooling2D_2.png)
+ 
  ![Conv2D_3.png](Conv2D_3.png)
  ![Max_Pooling2D_3.png](Max_Pooling2D_3.png)
