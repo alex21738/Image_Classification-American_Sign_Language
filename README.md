@@ -72,6 +72,20 @@ The graphic below is an example image transfered from training set csv.
 
 - Dropout 10% of observations
 
+- Save model for future usage
+
 - Test set accuracy: 0.81, Epochs = 18
 
 ![acc_cnn.png](acc_cnn.png)
+
+## Extracting Feature Map
+
+- Extract model layer outputs
+
+- Create a model for displaying the feature maps
+
+- Extract Layer Names for Labelling
+
+- Post-process the feature to make it visually palatable
+ 
+ 
