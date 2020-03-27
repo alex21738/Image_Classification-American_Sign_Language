@@ -52,19 +52,19 @@ The graphic below is an example image transfered from training set csv.
 
 - Test set accuracy: 0.29, Epochs = 15
 
-![acc_sigmoid.png](acc_sigmoid.png)
+![acc_sigmoid.png](Pictures/acc_sigmoid.png)
 
 ### Softmax
 
 - Test set accuracy: 0.59, Epochs = 15
 
-![acc_softmax.png](acc_softmax.png)
+![acc_softmax.png](Pictures/acc_softmax.png)
 
 ### Hypertuned Softmax
 
 - Test set accuracy: 0.63, Epochs = 15
 
-![acc_hypertuned_softmax.png](acc_hypertuned_softmax.png)
+![acc_hypertuned_softmax.png](Pictures/acc_hypertuned_softmax.png)
 
 ## CNN 2D
 
@@ -76,7 +76,7 @@ The graphic below is an example image transfered from training set csv.
 
 - Test set accuracy: 0.81, Epochs = 18
 
-![acc_cnn.png](acc_cnn.png)
+![acc_cnn.png](Pictures/acc_cnn.png)
 
 ## Extracting Feature Map
 
@@ -92,18 +92,18 @@ The graphic below is an example image transfered from training set csv.
  
  - Layer 1:
  
- ![Conv2D_1.png](Conv2D_1.png)
- ![Max_Pooling2D_1.png](Max_Pooling2D_1.png)
+ ![Conv2D_1.png](Pictures/Conv2D_1.png)
+ ![Max_Pooling2D_1.png](Pictures/Max_Pooling2D_1.png)
  
  - Layer 2:
  
- ![Conv2D_2.png](Conv2D_2.png)
- ![Max_Pooling2D_2.png](Max_Pooling2D_2.png)
+ ![Conv2D_2.png](Pictures/Conv2D_2.png)
+ ![Max_Pooling2D_2.png](Pictures/Max_Pooling2D_2.png)
  
  - Layer 3:
  
- ![Conv2D_3.png](Conv2D_3.png)
- ![Max_Pooling2D_3.png](Max_Pooling2D_3.png)
+ ![Conv2D_3.png](Pictures/Conv2D_3.png)
+ ![Max_Pooling2D_3.png](Pictures/Max_Pooling2D_3.png)
  
  ## Confusion Matrix
  
@@ -114,7 +114,7 @@ The graphic below is an example image transfered from training set csv.
  - Calculate False Positive error % to get top letters most misclassified by other letters.
  
  The graphic below shows the confusion matrix.
- ![confusion_matrix.png](confusion_matrix.png)
+ ![confusion_matrix.png](Pictures/confusion_matrix.png)
  
  ## Further Exploration
  
