@@ -68,7 +68,7 @@ The graphic below is an example image transfered from training set csv.
 
 ## CNN 2D
 
-- Adopt 3 layer convolution 2D and Maxpooling 2D
+- Adopt 3 layer Convolution2D and Max pooling2D
 
 - Dropout 10% of observations
 
