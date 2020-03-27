@@ -1,20 +1,4 @@
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-
-from sklearn.model_selection import train_test_split
-from keras import models
-from keras import layers
-from keras import regularizers
-
-import keras
-from keras.models import Sequential
-from keras.layers import Dense, Dropout
-from keras.optimizers import SGD
-
-import itertools
-import math
 
 def label_creater(df, column):
     labels = df[column]
