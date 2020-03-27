@@ -110,4 +110,13 @@ The graphic below is an example image transfered from training set csv.
  The graphic below shows the confusion matrix.
  ![confusion_matrix.png](confusion_matrix.png)
  
+ ## Further Exploration
  
+- Try larger picture size data
+
+- Try heat map to show activation features
+
+- Try to implement pre-trained data
+
+- Try to involve data augmentation
+
