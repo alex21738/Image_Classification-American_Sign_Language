@@ -24,9 +24,10 @@ The data was collected from Kaggle, originally uploaded by Kaggle account tecper
 
 ## EDA
 
+The graphic below shows distributions of letters in training set.
 ![Distributions_of_letters_in_training_set.png](Distributions_of_letters_in_training_set.png)
 The above graphic shows distributions of letters in training set.
 
-
+The graphic below shows distributions of letters in test set.
 ![Distributions_of_letters_in_test_set.png](Distributions_of_letters_in_test_set.png)
-The above graphic shows distributions of letters in test set.
+
