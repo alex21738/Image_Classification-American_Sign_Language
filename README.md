@@ -1,4 +1,4 @@
-# Chocolate-lab
+# Image Classification -- American Sign Language
 
 ## Outline
 
