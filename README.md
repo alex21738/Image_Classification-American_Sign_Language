@@ -20,7 +20,7 @@ The goal of this project is to correctly predict a letter from the American Sign
 
 ## Data Collection
 
-The data was collected from Kaggle, originally uploaded by Kaggle account tecperson 2018 (https://www.kaggle.com/datamunge/sign-language-mnist). The data is in CSV files and each row represents one image and each colomn represents the grey scale for a single pixel of that image. Turning each row into a matrix we can generate images size  28X28. The files are already split into training and test sets. The training set contains 27455 images and the testing set has 7172 images. 
+The data was collected from Kaggle, originally uploaded by Kaggle account tecperson 2018 (https://www.kaggle.com/datamunge/sign-language-mnist). The data is in CSV files and each row represents one image and each colomn represents the grey scale for a single pixel of that image. Turning each row into a matrix we can generate images size 28X28. The files are already split into training and test sets. The training set contains 27455 images and the testing set has 7172 images. 
 
 ## EDA
 
