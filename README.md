@@ -132,3 +132,6 @@ The graphic below is an example image transfered from training set csv.
 
 - Involve data augmentation to see if we can increase our accuracy
 
+ ## Powerpoint Link
+ 
+ - https://docs.google.com/presentation/d/1g4U47n2K-JUqWbb6WHiNGrnX8CKCCoSTPpEsJ8coptc/edit?usp=sharing
