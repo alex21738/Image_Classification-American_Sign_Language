@@ -126,7 +126,7 @@ The graphic below is an example image transfered from training set csv.
  
 - Use larger pictures 
 
-- Use a heat map to show actvation features on an image
+- Adopt a heat map to show actvation features on an image
 
 - Implement pre-trained data to increase our accuracy
 
