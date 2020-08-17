@@ -74,7 +74,7 @@ The graphic below is an example image transfered from training set csv.
 
 - Save model for future usage
 
-- Test set accuracy: 0.81, Epochs = 18
+- Test set accuracy: 0.81, Epochs: 18
 
 ![acc_cnn.png](Pictures/acc_cnn.png)
 
