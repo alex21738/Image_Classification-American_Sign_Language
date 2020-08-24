@@ -40,7 +40,7 @@ The graphic below is an example image transfered from training set csv.
 
 - Turn both training set and testing set into matrix(reshape), flatten, and standardize(divide by 255).
 
-- Split the training set into training and validating sets.
+- Split the training set into training set and validating set.
 
 - Set number of classes to 25 (26 letters - 2(no J,Z) +1(label))
 
