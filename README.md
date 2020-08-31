@@ -126,7 +126,7 @@ The graphic below is an example image transfered from training set csv.
  
 - Use larger pictures 
 
-- Adopt heat maps to show actvation features on an image
+- Adopt heat maps to show activation features on an image
 
 - Implement pre-trained data to increase our accuracy
 
