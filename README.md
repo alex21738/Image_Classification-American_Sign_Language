@@ -118,7 +118,7 @@ The graphic below is an example image transfered from training set csv.
  
  ## Insightful Analysis
  
- - 'R', 'T', and 'V' were the most miss predicted
+ - 'R', 'T', and 'V' were the most miss predicted letters
  - Other signs were incorrectly predicted as 'U' and 'T' most often
  ![amer_sign2.png](Pictures/amer_sign2.png)
  
